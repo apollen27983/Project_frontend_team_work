@@ -1,6 +1,5 @@
 <script setup>
 import { useCartStore } from "./../../stores/CartStore";
-import { defineEmits } from 'vue';
 
 const store = useCartStore();
 
@@ -57,7 +56,6 @@ const addCart = () => {
   width: 100vw;
   height: 100vh;
   display: flex;
-  backdrop-filter: blur(2px);
   background-color: rgba(0, 0, 0, 0.209);
   justify-content: center;
   align-items: center;
